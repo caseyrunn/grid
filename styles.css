@@ -69,6 +69,18 @@ body {
 
 .header {
     background-color: white;
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+.upper-header{
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.lower-header{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
 .main-content {
