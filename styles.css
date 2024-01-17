@@ -50,7 +50,10 @@ table {
 /**/
 /*END RESET*/
 /**/
-
+svg {
+	fill: white;
+	width: 3rem;
+}
 
 body {
     display: grid;
