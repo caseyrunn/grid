@@ -94,6 +94,15 @@ body {
 	grid-template-columns: 2fr 1fr;
 }
 
+.searchbar-div{
+	display: grid;
+	grid-template-columns: 1fr 12fr;
+	align-items: center;
+}
+
+.searchbar-div svg{
+	justify-self: center;
+}
 
 .lower-header{
 	display: grid;
@@ -148,4 +157,5 @@ input[type="search"]{
 	border-radius: 2rem;
 	background-color: lightgray;
 	border: none;
+	width: 40vw;
 }
