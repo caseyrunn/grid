@@ -159,3 +159,24 @@ input[type="search"]{
 	border: none;
 	width: 40vw;
 }
+
+.profile-pic{
+	width: 3rem;
+	border-radius: 50%;
+}
+
+.notifications{
+	display: grid;
+	grid-template-columns: .5fr 1fr 4fr;
+	align-items: center;
+}
+
+.notifications h3{
+	font-weight: 700;
+	font-size: 1.25rem;
+	
+}
+
+.bell{
+	background-color: red;
+}
