@@ -106,13 +106,14 @@ body {
 
 .lower-header{
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 2fr 1fr;
 }
 
 .greeting{
 	display: grid;
 	grid-template-columns: 1fr 6fr;
 	font-weight: 700;
+	padding: 0rem 1rem;
 }
 
 .greeting-text h2{
@@ -144,7 +145,6 @@ body {
 	grid-template-rows: 1fr 1fr;
 
 }
-
 
 
 .sidebar-middle ul,
@@ -201,5 +201,25 @@ input[type="search"]{
 	font-weight: 700;
 	font-size: 1.25rem;
 	
+}
+
+.buttons{
+	padding: 0rem 1rem;
+	display: grid;
+	grid-template-columns: repeat(3, auto);
+	justify-content: space-between;
+	align-items: center;
+	gap: 1rem;
+
+}
+
+button{
+	background-color: cornflowerblue;
+	border-radius: 30px;
+	border-style: none;
+	color: white;
+	font-size: 1rem;
+	font-weight: 700;
+	padding: 0.5rem 1.5rem;
 }
 
